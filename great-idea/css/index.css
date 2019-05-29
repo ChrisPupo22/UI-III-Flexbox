@@ -63,4 +63,262 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container {
+  width: 880px;
+  /* TB LR */
+  margin: 0 auto;
+}
+
+/* header */
+
+header nav {
+  display: flex;
+  width: 691px;
+  vertical-align: top;
+  margin-top: 35px;
+}
+
+header nav a {
+  margin-right: 65px;
+  font-size: 14px;
+  color: gray;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+header nav a:first-child {
+  margin-left: 0;
+}
+
+header nav a:last-child {
+  margin-right: 0;
+}
+
+header .logo {
+  margin-top: 25px;
+}
+
+/* cta */
+
+.cta .cta-text {
+  display: flex;
+  vertical-align: top;
+  font-size: 77px;
+  margin-top: 120px;
+  text-align: center;
+  padding: 0px 75px;
+}
+
+.cta .cta-text button {
+  background: white;
+  vertical-align: top;
+  margin-top: 6px;
+  padding: 8px 44px;
+  font-size: 17px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.cta .cta-text button:hover {
+  background: black;
+  color: white;
+}
+
+.cta img {
+  display: flex;
+  margin-top: 69px;
+}
+
+.main-content {
+  border-top: 1px solid black;
+  margin-top: 76px;
+  padding-top: 39px;
+}
+
+.main-content .top-content {
+  padding: 0 10px;
+}
+
+.main-content .top-content .text-content {
+  width: 410px;
+  display: inline-block;
+  margin-right: 34px;
+}
+
+.main-content .top-content .text-content:last-child {
+  margin-right: 0;
+}
+
+.main-content .middle-img {
+  margin-top: 45px;
+}
+
+.main-content .bottom-content {
+  margin-top: 37px;
+  padding: 0 10px;
+}
+
+.main-content .bottom-content .text-content {
+  width: 275px;
+  display: flex;
+  margin-right: 12px;
+}
+.text-content{
+  width: 33%;
+  display: flex;
+}
+
+.main-content .bottom-content .text-content:last-child {
+  margin-right: 0;
+}
+
+.contact {
+  margin-top: 57px;
+  border-top: 1px solid black;
+  padding: 39px 10px 0;
+}
+
+.contact p {
+  margin: 20px 0;
+}
+
+footer {
+  margin: 32px 0;
+  text-align: center;
+  font-size: 14px;
+}
+body {
+  margin-left: 80px;
+  width: 60%;
+}
+
+.services-header-img {
+  padding: 10px; 
+  display: flex;
+  justify-content: space-evenly;
+  
+
+}
+
+.navbar-logo {
+  display: flex; 
+}
+
+.first-row {
+  display: flex; 
+  justify-content: space-between;
+   
+}
+.dig-des {
+  display: flex;
+  border: 1px solid black; 
+  width:48%;
+  padding: 10px; 
+  flex-direction: column;
+  background: lightgrey;
+}
+.serv-break {
+  margin-top: 15px;
+  margin-bottom: 27px;
+
+
+}
+.ux-ui {
+  display: flex;
+  border: 1px solid black; 
+  width:48%;
+  padding: 10px;
+  flex-direction: column;
+  background: lightgrey;
+
+}
+
+.second-row {
+  display: flex; 
+  justify-content: space-between;
+  margin-top: 35px;
+
+}
+
+.dig-mark {
+  display: flex;
+  border: 1px solid black; 
+  width:48%;
+  padding: 10px; 
+  flex-direction: column;
+  background: lightgrey;
+  
+}
+.web-dev {
+  display: flex;
+  border: 1px solid black; 
+  width:48%;
+  padding: 10px;
+  flex-direction: column;
+  background: lightgrey;
+}
+
+.third-row {
+  display: flex; 
+  justify-content: space-between;
+  margin-top: 35px;
+  
+}
+
+.ios-dev {
+  display: flex;
+  border: 1px solid black; 
+  width:48%;
+  padding: 10px; 
+  flex-direction: column;
+  background: lightgrey;
+}
+
+.droid-dev {
+  display: flex;
+  border: 1px solid black; 
+  width:48%;
+  padding: 10px; 
+  flex-direction: column;
+  background: lightgrey;
+}
+
+.closing-sect {
+  display: flex; 
+
+}
+.p-half-left {
+  display: flex;
+  width: 45%;
+  padding: 10px;
+  border: 1px solid black;
+
+}
+.button {
+  display: flex;
+  border: 1px solid black; 
+  padding: 7.5px;
+  border-radius: 10px;
+  margin-top: 15px;
+  justify-content: space-evenly;
+  width: 150px;
+}
+
+.closing-list {
+  list-style-type: square;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+}
+
+li {
+  margin-top: 10px;
+  margin-left: 20px;
+
+
+}
